@@ -5,8 +5,8 @@
 <!--Definindo favicon do site-->
 {% block head%}
 {{ super() }}
-<link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
-<link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+<link rel="shortcut icon" href="{{ url_for('static',filename='Favicon.ico') }}" type="image/x-icon">
+<link rel="icon" href="{{ url_for('static',filename='Favicon.ico') }}" type="image/x-icon">
 {% endblock %}
 <!--Definindo template base da navbar-->
 {% block navbar %}
@@ -23,7 +23,8 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/" style="color: #010102be;">Home</a></li>
+                <li><a href="register_lib" style="color: #010102be;">Nova Biblioteca</a></li>
+                <li><a href="register_book" style="color: #010102be;">Novo Livro</a></li>
             </ul>
         </div>
     </div>
